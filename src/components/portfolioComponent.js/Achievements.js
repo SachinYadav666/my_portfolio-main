@@ -10,6 +10,10 @@ const AchievementsContainer = styled.div`
   }
 `;
 
+
+
+
+
 const AchievementLogo = styled.img`
   width: 50px;
   height: 50px;
