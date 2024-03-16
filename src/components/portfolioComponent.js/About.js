@@ -156,7 +156,7 @@ const About = () => {
 • Age: 21
 • Email: sachintmg666@gmail.com
 • Location: India, New Delhi
-• Phone: +91 8900000000`,
+• Phone: +91 8920010000`,
     },
     {
       id: 2,
