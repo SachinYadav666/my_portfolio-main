@@ -157,7 +157,7 @@ const Achievements = () => {
       link: "https://www.codechef.com/users/sachin_yadav66",
       logo: "https://user-images.githubusercontent.com/49322948/159158550-263bc175-f148-406a-b807-3c321437b46c.png",
       description:
-        "500+ questions across coding platforms including Leetcode, GFG and hackerrank.",
+        "500+ questions across coding platforms including Leetcode , GFG and hackerrank.",
     },
     {
       id: 2,
