@@ -56,7 +56,7 @@ const SocialMediaBar = () => {
     <SocialMediaContainer>
       <LabelWrapper>
         <SocialIconWrapper
-          href="https://leetcode.com/sachintmg666/"
+          href="https://leetcode.com/u/sachinyadav666/"
           target="_blank"
           rel="noopener noreferrer"
         >
