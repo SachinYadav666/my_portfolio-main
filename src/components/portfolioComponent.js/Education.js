@@ -201,7 +201,7 @@ const Education = () => {
     },
     {
       id: 3,
-      institution: "Grur Hari Kishan Public School, New Delhi",
+      institution: "Guru Hari Kishan Public School, New Delhi",
       duration: "July 2018 - Apr 2019",
       qualification: "Class 10th",
       description: `• Vice House Captain of my school. Won various exhibitions competitions.• Got ranks in national olympiads and athelete events.`,
@@ -287,7 +287,7 @@ const Education = () => {
         <HighlightText>
           B.Tech in Electronics And Communication Engineering with a focus on software
           development, algorithms, and data structures. Achieved an overall GPA
-          of , participating in various tech events and projects.
+          of 8.08 , participating in various tech events and projects.
         </HighlightText>
       </EducationSideContent>
     </DisplayResults>
