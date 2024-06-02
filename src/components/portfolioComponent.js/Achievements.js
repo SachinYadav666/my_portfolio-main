@@ -167,22 +167,6 @@ const Achievements = () => {
       description:
         "Secured victory in the GPT 3.5 Solvathon , hosted by IIITN during Tantrafiesta, by contributing to the development of a Mental Health Counseling Bot within a team.",
     },
-    // {
-    //   id: 3,
-    //   title: "DSA mentor at codechef",
-    //   link: "https://www.linkedin.com/in/ashutosh-kumar-j-9904a0118/",
-    //   logo: "https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg",
-    //   description:
-    //     "I was a codechef mentor for the year 2022-2023 where I designed several questions for contests and helped students in starting their journey in DSA.",
-    // },
-//     {
-//       id: 4,
-//       title: "Volunteer HR at Aashman Foundation",
-//       link: "https://www.facebook.com/aashmanfoundation/",
-//       logo: "https://www.lawctopus.com/wp-content/uploads/2021/08/1616316848175.jpeg",
-//       description: `Worked with an NGO for 6 months, successfully managing a team of 30 interns, receiving a 5-star certificate for
-// contributions`,
-//     },
   ];
 
   const toggleDescription = (index) => {
