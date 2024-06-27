@@ -151,7 +151,7 @@ const About = () => {
       id: 1,
       logo: profilePic,
       title: "About Me",
-      link: "https://github.com/SachinYadav666/my_portfolio",
+      link: "https://my-portfolio-main-81h2ymcct-sachin-yadavs-projects-5e37228c.vercel.app/search?query=projects",
       content: `• Name: Sachin Yadav
 • Age: 21
 • Email: sachintmg666@gmail.com
