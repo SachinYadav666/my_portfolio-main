@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { MdOutlineExpandMore as ExpandIcon } from "react-icons/md";
-import hotel from "../../assets/hotel.jpg";
-import weather from "../../assets/weather.jpg";
-import ecom from "../../assets/ecom.jpg";
-
+import edulity from "../../assets/edulity.jpg";
+import train from "../../assets/train.jpg";
+import social from "../../assets/social.jpg";
+import  ed from  "../../assets/ed.jpg"
 
 const ProjectsContainer = styled.div`
   padding: 10px 20px;
@@ -170,40 +170,41 @@ const Projects = () => {
   };
 
   function LatestProjectIMAGEVIEWER() {
-    return <HighlightContentIMAGE src={hotel} alt="Project Image" />;
+    return <HighlightContentIMAGE src={edulity} alt="Project Image" />;
   }
 
   const projects = [
     {
       id: 1,
-      title: "Hotel Booking App",
-      logo: hotel,
-      repoLink: "https://github.com/SachinYadav666/Hotel-Booking-App",
-      smallDescription:`Discover convenience and comfort on our MERN-based hotel booking website. Seamless UI with real-time availability, secure transactions, and comprehensive hotel profiles. Effortless planning for a delightful travel experience. portfolio project with speech recognition, routing, debouncing, etc.`,
-      description: `•Technology Stack: Utilizing the power of the MERN stack - MongoDB, Express.js, React, and Node.js.
-• Secure Transactions: The booking process is streamlined with secure transactions, ensuring user data and reservations are handled with utmost security.`,
+      title: "Edulity",
+      logo: ed,
+      repoLink: "https://github.com/SachinYadav666/Edulity",
+      smallDescription:`Spearheaded the architecture of a microservices-based Edtech platform using the MERN stack, deploying a scalable RESTful API with Node.js and Express.js, and designing a modern UI with React.js to enhance user experience.`,
+      description: `•Technology Stack: HTML, Tailwind, JavaScript, React.js, Chart.js, Node.js, Express.js, MongoDB.
+• Enabled seamless transactions with Razorpay and enhanced user authentication with JWT, increasing security and transaction efficiency, thereby facilitating learner course access and instructor content curation.`,
     },
 
 
     {
       id: 2,
-      title: " Weather APP",
-      logo: weather,
-      repoLink: "https://github.com/SachinYadav666/weatherApp",
-      smallDescription: ` Implemented automatic location detection and real-time temperature information using APIs`,
-      description: `• Enabled users to easily retrieve temperature details of any location through search functionality.
-• Technology Used: JavaScript, React.js`,
+      title: "Rail Reservation Using C++",
+      logo: train,
+      repoLink: "https://github.com/SachinYadav666/Rail-Reservation-System-in-CPP",
+      smallDescription: ` Engineered a train reservation system in C++ enabling users to register, log in, book and cancel tickets, view train details, make payments, and provide feedback, thereby enhancing user experience and system reliability.`,
+      description: `•Applied OOP principles (encapsulation, inheritance, polymorphism) and advanced file handling techniques for data persistence, resulting in a robust and maintainable system.
+• Integrated secure user authentication, comprehensive error handling, and rigorous data validation, ensuring system integrity and reliability.
+• Technology Used: C++`,
 
     },
     {
       id: 3,
-      title: "E-Commerce Website",
-      logo: ecom,
-      repoLink: "https://github.com/SachinYadav666/Ecommerce-Website",
+      title: "Social Media App",
+      logo: social,
+      repoLink: "https://github.com/SachinYadav666/MERN_SocialMedia-App",
       smallDescription:
-        "The e-commerce website features a responsive navigation bar, Glidejs-powered carousel, and category sections.",
-      description: `• Overall, this e-commerce website aims to create a seamless and secure online shopping experience for customers while offering businesses an efficient platform for selling products and services to a global audience.
-      Technolgies Used: HTML, CSS, JavaScript`,
+        "Developed a social media platform enabling users to share posts, comments, and like content seamlessly, with a modern dark mode for improved user experience.",
+      description: `Ensured platform accessibility across various devices and integrated a like feature that increased post engagement by30%. It provides an engaging and convenient way for users to connect and share their ideas.
+      Technolgies Used: React, JavaScript, CSS, MongoDB, Express, Node, Firebase.`,
     },
   ];
 
@@ -291,16 +292,15 @@ const Projects = () => {
         >
           <LatestProjectIMAGEVIEWER />
           <LatestProjectHeader>
-           Hotel Booking  with Razorpay
+           Edulity
           </LatestProjectHeader>
         </div>
         <LatestProjectText>
           <span>
-          "Discover Your Dream Stay, Book with SachinHolidays.com ."
+          "Discover Your Dream Education."
             <br />
             <br/>
-            Streamlining travel planning, our hotel booking website aims to offer a seamless, secure, and enjoyable experience.
-             We prioritize user satisfaction, diverse accommodations, and personalized service to create memorable stays worldwide
+            Edulity is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students while offering a platform for instructors to showcase their expertise and connect with learners worldwide. 
             <br />
             <br />
             <Heading>Developers: </Heading>
